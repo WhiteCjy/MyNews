@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--定义TabLayout样式-->
+    <style name="CustomTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabPaddingStart">20dp</item>
+        <item name="tabPaddingEnd">20dp</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabSelectedTextColor">@color/black</item>
+        <item name="tabBackground">@color/colorPrimary</item>
+        <item name="tabTextAppearance">@style/CustomTabTextAppearance</item>
+
+    </style>
+    <style name="CustomTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+        <!--.textAllCaps：TabLayout创建的Tab默认的是true，如果设置图标的话要设置成false。-->
+        <item name="textAllCaps">true</item>
+    </style>
+
+    <style name="commonProgressDialog">
+        <!--设置背景半透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--设置窗口无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否悬浮于当前界面-->
+        <item name="android:windowIsFloating">true</item>
+        <!--<item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>-->
+    </style>
+</resources>

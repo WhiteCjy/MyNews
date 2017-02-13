@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">新闻demo</string>
+
+    <array name="tab_title">
+        <item>要闻</item>
+        <item>财经</item>
+        <item>奥运</item>
+        <item>军事</item>
+        <item>科技</item>
+        <item>历史</item>
+    </array>
+</resources>
